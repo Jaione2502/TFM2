@@ -21,22 +21,22 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="{{ route( 'index')}}">Inicio</a></li>
                 <li class="dropdown">
-                    <a href="recetas.html" class="dropbtn">Recetas</a>
+                    <a href="{{ route( 'recetaPopulares')}}" class="dropbtn">Recetas</a>
                     <div class="dropdown-content">
-                        <a href="recetas.html">Recetas Populares</a>
-                        <a href="buscador.html">Buscador de Recetas</a>
-                        <a href="desayunos.html">Desayunos</a>
-                        <a href="comidas.html">Comidas</a>
-                        <a href="cenas.html">Cenas</a>
-                        <a href="bebidas.html">Bebidas</a>
-                        <a href="postres.html">Postres</a>
+                        <a href="{{ route( 'recetaPopulares')}}">Recetas Populares</a>
+                        <a href="{{ route( 'buscador')}}">Buscador de Recetas</a>
+                        <a href="{{ route( 'desayuno')}}">Desayunos</a>
+                        <a href="{{ route( 'comida')}}">Comidas</a>
+                        <a href="{{ route( 'cena')}}">Cenas</a>
+                        <a href="{{ route( 'bebida')}}">Bebidas</a>
+                        <a href="{{ route( 'postre')}}">Postres</a>
                     </div>
                 </li>
-                <li><a href="nosotros.html">Sobre nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="{{ route( 'nosotros')}}">Sobre nosotros</a></li>
+                <li><a href="{{ route( 'contacto')}}">Contacto</a></li>
+                <li><a href="{{ route( 'newsletter')}}">Newsletter</a></li>
             </ul>
         </nav>
         <div>
