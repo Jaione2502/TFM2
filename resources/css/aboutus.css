@@ -1,0 +1,49 @@
+
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.team {
+    margin-top: 1.8rem;
+}
+
+.team-member {
+    margin-bottom: 1.5rem;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+a i {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover i {
+    color: #0056b3;
+}
