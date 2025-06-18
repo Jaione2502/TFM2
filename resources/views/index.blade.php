@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas de Cocina</title>
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/cabeceraPie.css">
-    <link rel="stylesheet" href="css/modoOscuro.css">
+    <link rel="stylesheet" href="{{ 'css/general.css' }}">
+    <link rel="stylesheet" href="{{'css/cabeceraPie.css'  }}">
+    <link rel="stylesheet" href="{{'css/modoOscuro.css'}}">
     <link rel="stylesheet" href="css/landingPage.css">
 </head>
 <body>
