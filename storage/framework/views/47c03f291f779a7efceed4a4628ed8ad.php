@@ -6,12 +6,10 @@
     <title>Recetas de Cocina</title>
 
 
-
-    <link rel="stylesheet"  href="{{ asset('css/general.css') }}">
-    <link rel="stylesheet"  href="{{ asset('css/cabeceraPie.css') }}">
-    <link rel="stylesheet"  href="{{ asset('css/modoOscuro.css') }}">
-    <link rel="stylesheet"  href="{{ asset('css/landingPage.css') }}">
-
+    <link rel="stylesheet"  href="<?php echo e(asset('css/general.css')); ?>">
+    <link rel="stylesheet"  href="<?php echo e(asset('css/cabeceraPie.css')); ?>">
+    <link rel="stylesheet"  href="<?php echo e(asset('css/modoOscuro.css')); ?>">
+    <link rel="stylesheet"  href="<?php echo e(asset('css/landingPage.css')); ?>">
 
 </head>
 <body>
@@ -133,3 +131,4 @@
 </body>
 </html>
 
+<?php /**PATH C:\xampp\htdocs\TFM2_Inicial\resources\views/index.blade.php ENDPATH**/ ?>
