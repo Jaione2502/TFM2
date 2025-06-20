@@ -1,0 +1,123 @@
+.boton-modo-oscuro {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}
+.boton-modo-oscuro:hover {
+    background: #444;
+}
+
+button.boton-modo-oscuro {
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode header {
+    background: #333;
+}
+
+.dark-mode .receta {
+    background: #444;
+    color: #fff;
+}
+
+.dark-mode .hero h1 {
+    color: #333;
+}
+
+.dark-mode .hero p {
+    color: #333;
+}
+
+.dark-mode .section {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode .recipe-card {
+    background-color: #555;
+    color: #333;
+}
+
+.dark-mode .beneficios h2 {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .beneficios {
+    background-color: #333;
+    color: #333;
+}
+
+.dark-mode .recipes h2 {
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode .recipe-item h3 {
+    color: #333;
+}
+
+.dark-mode .recipes {
+    background-color: #cc6767;
+    color: #c42424;
+}
+
+.dark-mode .testimonios h2 {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .testimonios {
+    background-color: #333;
+    color: #333;
+}
+
+.dark-mode .newsletter {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .food-group_titlelista {
+    color: #333;
+}
+
+.dark-mode .food-group_lista_detalle {
+    color: #333;
+}
+
+.dark-mode .team-member h3 {
+    color: #fff;
+}
+
+.dark-mode .testimonio {
+    color: #fff;
+    background-color: #444;
+}
+
+.dark-mode .form {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode .form__label {
+    color: #fff;
+}
+
+.dark-mode .privacy-text {
+    color: #fff;
+}
